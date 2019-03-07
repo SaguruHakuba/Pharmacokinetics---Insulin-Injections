@@ -2,7 +2,7 @@ function [dQdt] = Model2(t, Q)
 dQdt = zeros(3,1);
 u = 860/60;
 ka1 = 0.0183;
-a = 148*10^(-14);
+a = 148*10^(-9);
 ke = 0.35;
 
 dQdt(1) = u - (ka1 - a*Q(1))*Q(1);
