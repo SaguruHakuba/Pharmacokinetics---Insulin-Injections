@@ -1,0 +1,12 @@
+function [dQdt] = Model11(t, Q)
+dQdt = zeros(1,1);
+ke = 0.35;
+
+a = 2.44;
+b = 53.42;
+bi = 79.19;
+s = 2.01;
+si = 2.86;
+ub = 12;
+
+dQdt(1) = -ke*

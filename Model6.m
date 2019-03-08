@@ -1,7 +1,7 @@
 function [dQdt] = Model6(t, Q)
 dQdt = zeros(5,1);
 u = 860/60;
-k = 61;
+k = 0.61;
 ka1 = 0.0101;
 ka2 = 0.0180;
 ke = 0.35;
