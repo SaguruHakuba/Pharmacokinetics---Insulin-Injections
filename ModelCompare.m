@@ -13,7 +13,7 @@ xlabel('Time (min)');
 ylabel('Avarage concentrations (mU/dl)');
 hold on;
 scatter(a,b, [], 'r');
-errorbar(a, b, errors, 'LineStyle','none');
+errorbar(a, b, errors, 'LineStyle','none', 'Color', 'red');
 
 % Model 2
 figure(2);
@@ -25,7 +25,7 @@ xlabel('Time (min)');
 ylabel('Avarage concentrations (mU/dl)');
 hold on;
 scatter(a,b, [], 'r');
-errorbar(a, b, errors, 'LineStyle','none');
+errorbar(a, b, errors, 'LineStyle','none', 'Color', 'red');
 
 % Model 3
 figure(3);
@@ -37,7 +37,7 @@ xlabel('Time (min)');
 ylabel('Avarage concentrations (mU/dl)');
 hold on;
 scatter(a,b, [], 'r');
-errorbar(a, b, errors, 'LineStyle','none');
+errorbar(a, b, errors, 'LineStyle','none', 'Color', 'red');
 
 % Model 4
 figure(4);
@@ -49,7 +49,7 @@ xlabel('Time (min)');
 ylabel('Avarage concentrations (mU/dl)');
 hold on;
 scatter(a,b, [], 'r');
-errorbar(a, b, errors, 'LineStyle','none');
+errorbar(a, b, errors, 'LineStyle','none', 'Color', 'red');
 
 % Model 5
 figure(5);
@@ -61,7 +61,7 @@ xlabel('Time (min)');
 ylabel('Avarage concentrations (mU/dl)');
 hold on;
 scatter(a,b, [], 'r');
-errorbar(a, b, errors, 'LineStyle','none');
+errorbar(a, b, errors, 'LineStyle','none', 'Color', 'red');
 
 % Model 6
 figure(6);
@@ -73,7 +73,7 @@ xlabel('Time (min)');
 ylabel('Avarage concentrations (mU/dl)');
 hold on;
 scatter(a,b, [], 'r');
-errorbar(a, b, errors, 'LineStyle','none');
+errorbar(a, b, errors, 'LineStyle','none', 'Color', 'red');
 
 % Model 7
 figure(7);
@@ -92,7 +92,7 @@ xlabel('Time (min)');
 ylabel('Avarage concentrations (mU/dl)');
 hold on;
 scatter(a,b, [], 'r');
-errorbar(a, b, errors, 'LineStyle','none');
+errorbar(a, b, errors, 'LineStyle','none', 'Color', 'red');
 
 % Model 8
 figure(8);
@@ -104,7 +104,7 @@ xlabel('Time (min)');
 ylabel('Avarage concentrations (mU/dl)');
 hold on;
 scatter(a,b, [], 'r');
-errorbar(a, b, errors, 'LineStyle','none');
+errorbar(a, b, errors, 'LineStyle','none', 'Color', 'red');
 
 % Model 9
 figure(9);
@@ -116,7 +116,7 @@ xlabel('Time (min)');
 ylabel('Avarage concentrations (mU/dl)');
 hold on;
 scatter(a,b, [], 'r');
-errorbar(a, b, errors, 'LineStyle','none');
+errorbar(a, b, errors, 'LineStyle','none', 'Color', 'red');
 
 % Model 10
 figure(10);
@@ -128,4 +128,4 @@ xlabel('Time (min)');
 ylabel('Avarage concentrations (mU/dl)');
 hold on;
 scatter(a,b, [], 'r');
-errorbar(a, b, errors, 'LineStyle','none');
+errorbar(a, b, errors, 'LineStyle','none', 'Color', 'red');
